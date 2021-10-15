@@ -1,0 +1,107 @@
+html,
+button,
+input,
+select,
+textarea {
+  color: #000;
+}
+html {
+  font-size: 1em;
+  line-height: 1.4;
+}
+#wrapper {
+  min-width: 320px;
+  max-width: 900px;
+  margin: 2em auto 2em;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header img {
+  float: right;
+  border-radius: 1em;
+  height: 120px;
+  width: 120px;
+  padding-bottom: 0.5em;
+}
+
+header a {
+  color: white;
+}
+
+header {
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: #008080;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-right: 2em;
+  overflow: auto;
+  color: white;
+  letter-spacing: 1px;
+}
+
+header h1 {
+  font-family: acumin-pro, sans-serif;
+
+  font-weight: 700;
+
+  font-style: normal;
+}
+
+h2 {
+  color: #008080;
+}
+h2 i {
+  margin-right: 3px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer div {
+  font-size: smaller;
+  font-weight: bolder;
+}
+#github a {
+  color: #211f1f;
+}
+#linkedin a {
+  color: #2867b2;
+}
+#twitter a {
+  color: #1da1f2;
+}
+#facebook a {
+  color: #4267b2;
+}
+.interet {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.comp {
+  display: inline-table;
+  margin-right: 3em;
+}
+
+.prof {
+  display: inline-table;
+  margin-right: 2em;
+}
+
+.prof dt {
+  font-size: small;
+  color: #008080;
+}
+
+#interet {
+  text-align: center;
+}
+
+h6 div {
+  padding-bottom: 4px;
+}

@@ -8,6 +8,12 @@
     <meta name="keywords" content="web,developer,resume" />
     <meta name="author" content="Hajar SERRAD" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/resume.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/bf85b3c2d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/hdl1nmx.css">
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -15,31 +21,28 @@
   <body>
     <div id="wrapper">
        <header>
-        <h1>Hajar SERRAD</h1>
-        <h2>
-            <img src="profil.jpg" height="150px" width="150px" alt="my picture" />
-            <div id="address">
-                Rés. Univ. De Kergoat 2 Rue Des Archives 29200 Brest France
-            </div>
+        <h1>HAJAR SERRAD</h1>
+        <h6>
+            <img src="profil.jpg" alt="my picture" />
             <div id="date of birth">
-                22 ans
-            </div>
-            <div id="email">
-                <a href="mailto:hajarserrad@gmail.com" title="send me an email" style="text-decoration:none;">hajarserrad@gmail.com</a>
+             <i class="fas fa-user-alt"></i>  &nbsp;&nbsp;  22 ans
             </div>
             <div id="nationality">
-                Marocaine
+             <i class="fas fa-flag"></i> &nbsp;&nbsp; Marocaine
             </div>
-            <div id="linkedin">
-                <a href="https://www.linkedin.com/in/hajar-serrad-66060b180/" title="link of my linkedin account" style="text-decoration:none;">Hajar Serrad</a>
+            <div id="tel">
+             <i class="fas fa-phone-volume"></i> &nbsp;&nbsp;  00 33 7 54 48 40 25
             </div>
-            <div id="twitter">
-                <a href="https://twitter.com/HajarSerrad" title="link of my twitter account" style="text-decoration:none;">Hajar Serrad</a>
+            <div id="address">
+                <i class="fa fa-map-marker-alt"></i> &nbsp;&nbsp; Rés. Univ. De Kergoat 2 Rue Des Archives 29200 Brest France
+            </div>   
+            <div id="email">
+                <i class="fas fa-envelope"></i> &nbsp;&nbsp; <a href="mailto:hajarserrad@gmail.com" title="send me an email" style="text-decoration:none;">hajarserrad@gmail.com</a>
             </div>
-        </h2>
+        </h6>
        </header>
              <article id="presentation">
-                  <h2>Présentation</h2>
+                  <h2><i class="fas fa-user-alt"></i>Présentation</h2>
                   <p>
 
                 Depuis que j'ai été initié au domaine de l'informatique, ce dernier m'a beaucoup passionné. 
@@ -48,20 +51,20 @@
               </p>
               </article>
               <article id="formation">
-                <h2>Formation</h2>
+                <h2><i class="fas fa-graduation-cap"></i>Formation</h2>
                 <p>
                     <ul >
                         <li>
-                          <span> <b>2021 - présent </b> </span> &nbsp; &nbsp; 
+                           <b>2021 - présent </b>  &nbsp; &nbsp; 
                           Master 2 en Développement logiciel des systèmes d'information à l'université de Bretagne Occidentale (Brest).
                         </li>
                         
                         <li>
-                          <span> <b>2017 - présent</b> </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                           <b>2017 - présent</b>  &nbsp; &nbsp; 
                           Elève ingénieur en génie informatique à l'Ecole Nationale des Sciences Appliquées de Tanger (ENSAT).
                         </li> 
                         <li>
-                          <span> <b>2016 - 2017</b> </span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+                           <b>2016 - 2017</b>  &nbsp; &nbsp;  
                           Baccalauréat sciences mathématiques A, option française, au lycée Bab Al Andalousse, mention Bien (Casablanca).
                         </li>  
                           
@@ -69,10 +72,7 @@
               </p>
             </article>
             <article id="expériences">
-                <h2>Activités extra-professionnelles</h2>
-        
-
-
+                <h2><i class="fa fa-battery-quarter"></i>Activités extra-professionnelles</h2>
                     <dl>
                         <dt>2018 - 2019</dt>
                         <dd>- Chef de l'activité "Visite au centre des personnes âgées"
@@ -92,16 +92,16 @@
                 </ul>
             </article>
             <article id="competences">
-                <h2>Compétences</h2>
+                <h2><i class="fas fa-tools"></i>Compétences</h2>
                 <dl> <br>
-    <dt>Linguistiques</dt>
+                    <span class="comp">
+    <dt><i class="fas fa-comments"></i>&nbsp;Linguistiques</dt>
     <dd>Arabe: Langue maternelle</dd>
     <dd>Français: Courant</dd>
-    <dd>Anglais: Courant</dd>
-<br>
-    <dt>Professionnelles</dt>
-    <dd>
-        <dl>
+    <dd>Anglais: Courant</dd></span>
+    <span class="comp">
+    <dt> <i class="fas fa-laptop-code"></i>&nbsp;Professionnelles</dt>
+    <dl> <span class="prof">
             <dt>Programmation</dt>
             <dd>HTML</dd>
             <dd>CSS</dd>
@@ -112,50 +112,65 @@
             <dd>C#</dd>
             <dd>JAVA</dd>
             <dd>JAVASCRIPT</dd>
-             <br>
+             </span><span class="prof">
             <dt>Base de données</dt>
             <dd>SQL</dd>
             <dd>PL/SQL</dd>
             <dd>MySQL</dd>
             <DD>ORACLE</DD>
             <dd>NoSQL</dd>
-            <br>
+            </span><span class="prof">
             <dt>Outils</dt>
             <dd>Git/Github</dd>
             <dd>UML</dd>
             <dd>Agile/SCRUM</dd>
             <DD>Merise </DD>
-            <dd>MVC</dd>
+            <dd>MVC</dd></span>
         </dl>
-    </dd>
-    <br>
-    <dt>Personnelles</dt>
+   </span>
+    <span class="comp">
+    <dt> <i class="fa fa-female"></i>&nbsp;Personnelles</dt>
     <dd>Sérieux</dd>
     <dd>Créativité</dd>
     <dd>Responsbilité</dd>
-    <dd>Sens de l'écoute</dd>
+    <dd>Sens de l'écoute</dd></span>
 </dl>
             </article>
 
             <article>
-                <h2>Centres d'intêrets</h2>
+                <h2><i class="fas fa-clock"></i>Centres d'intêrets</h2>
+                <dl id="interet">
+                    <span class="interet">
+                    <dt>Lecture</dt>
+                    <dd><i class="fa fa-book-reader fa-2x"></i></dd> 
+                </span>
+                <span class="interet">
+                    <dt >Ecriture</dt>
+                    <dd><i class="fas fa-edit fa-2x" ></i></dd> 
+                </span>
+                <span class="interet">
+                    <dt >Pâtisserie</dt>
+                    <dd><i class="fas fa-birthday-cake fa-2x"></i></i></dd></span>
+                </dl>
+
 
             </article>
-          
+          <br><br>
             
             <footer>
-                <div id="github">
-                    <a href="https://github.com/Hajar-Serrad/" title="link of my github account" style="text-decoration:none;">Hajar Serrad</a>
-                </div>
-                <div id="linkedin">
-                    <a href="https://www.linkedin.com/in/hajar-serrad-66060b180/" title="link of my linkedin account" style="text-decoration:none;">Hajar Serrad</a>
-                </div>
-                <div id="twitter">
-                    <a href="https://twitter.com/HajarSerrad" title="link of my twitter account" style="text-decoration:none;">Hajar Serrad</a>
-                </div>
-                <div id="facebook">
-                    <a href="https://www.facebook.com/profile.php?id=100008162684204" title="link of my facebook account" style="text-decoration:none;">Hajar Serrad</a>
-                </div>
+                <div>Contactez moi sur </div> <br>
+                <span id="github">
+                    <a href="https://github.com/Hajar-Serrad/" title="Click to get to my github account" style="text-decoration:none;"><i class="fab fa-github fa-2x"></i>  </a>
+                </span> &nbsp;&nbsp;&nbsp;
+                <span id="linkedin">
+                    <a href="https://www.linkedin.com/in/hajar-serrad-66060b180/" title="Click to get to my linkedin account" style="text-decoration:none;"><i class="fab fa-linkedin-in fa-2x" ></i></a>
+                </span>&nbsp;&nbsp;&nbsp;
+                <span id="facebook">
+                    <a href="https://www.facebook.com/profile.php?id=100008162684204" title="Click to get to my facebook account" style="text-decoration:none;"><i class="fab fa-facebook fa-2x"></i></a>
+                </span>&nbsp;&nbsp;&nbsp;
+                <span id="twitter">
+                    <a href="https://twitter.com/HajarSerrad" title="Click to get to my twitter account" style="text-decoration:none;"><i class="fab fa-twitter fa-2x"></i></a>
+                </span>
             </footer>    
     </div>
   </body>
