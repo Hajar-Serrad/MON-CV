@@ -1,0 +1,27 @@
+@media only screen and (max-width: 740px) {
+  #wrapper {
+    width: 90%;
+    float: none;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 570px) {
+  #wrapper {
+    width: 95%;
+    float: none;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #wrapper {
+    width: 100%;
+    float: none;
+  }
+  h2 {
+    text-align: center;
+  }
+}
