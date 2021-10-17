@@ -14,30 +14,27 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/bf85b3c2d1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.typekit.net/hdl1nmx.css">
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
+  
   <body>
-    <div id="wrapper">
+    <div id="wrapper" itemscope itemtype ="https://schema.org/Person">
        <header>
-        <h1>HAJAR SERRAD</h1>
+        <h1 itemprop="name">HAJAR SERRAD</h1>
         <h6>
             <img src="profil.jpg" alt="my picture" />
-            <div id="date of birth">
+            <div itemprop="birthDate">
              <i class="fas fa-user-alt"></i>  &nbsp;&nbsp;  22 ans
             </div>
-            <div id="nationality">
+            <div itemprop="nationality">
              <i class="fas fa-flag"></i> &nbsp;&nbsp; Marocaine
             </div>
-            <div id="tel">
+            <div itemprop="telephone">
              <i class="fas fa-phone-volume"></i> &nbsp;&nbsp;  00 33 7 54 48 40 25
             </div>
-            <div id="address">
+            <div itemprop="address">
                 <i class="fa fa-map-marker-alt"></i> &nbsp;&nbsp; Rés. Univ. De Kergoat 2 Rue Des Archives 29200 Brest France
             </div>   
-            <div id="email">
+            <div itemprop="email">
                 <i class="fas fa-envelope"></i> &nbsp;&nbsp; <a href="mailto:hajarserrad@gmail.com" title="send me an email" style="text-decoration:none;">hajarserrad@gmail.com</a>
             </div>
         </h6>
@@ -72,7 +69,7 @@
                       </ul>
               </p>
             </article>
-            <article id="expériences">
+            <article itemprop="hasOccupation">
                 <h2><i class="fa fa-battery-quarter"></i>Activités extra-professionnelles</h2>
                     <dl>
                         <dt>2018 - 2019</dt>
@@ -96,7 +93,7 @@
                 <h2><i class="fas fa-tools"></i>Compétences</h2>
                 <dl> <br>
                     <span class="comp">
-    <dt><i class="fas fa-comments"></i>&nbsp;Linguistiques</dt>
+    <dt itemprop="khnowsLanguage"><i class="fas fa-comments"></i>&nbsp;Linguistiques</dt>
     <dd>Arabe: Langue maternelle</dd>
     <dd>Français: Courant</dd>
     <dd>Anglais: Courant</dd></span>
