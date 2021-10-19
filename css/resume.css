@@ -105,3 +105,15 @@ footer div {
 h6 div {
   padding-bottom: 4px;
 }
+
+.click {
+  color: #008080;
+  font-size: smaller;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.tooltip {
+  display: inline-block;
+  position: fixed;
+  padding: 0.5em 1em;
+}
