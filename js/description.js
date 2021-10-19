@@ -1,7 +1,6 @@
 /*
 
 // qst 1 et 2
-
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.details').forEach(details=>{
         details.style.display="none";
@@ -32,7 +31,6 @@ details.previousElementSibling.style.display = "block";
 
 
 // qst 3 (code final pour la partie Apparition des descriptions détaillées – 1)
-
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.details').forEach(details=>{
         details.style.display="none";
@@ -88,7 +86,6 @@ document.addEventListener('click', event => {
 });
 
 // code final pour la partie Apparition des descriptions détaillées – 2
-
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
   });
