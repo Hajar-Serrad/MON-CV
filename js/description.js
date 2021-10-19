@@ -1,5 +1,3 @@
-
-
 /*
 
 // qst 1 et 2
@@ -89,7 +87,7 @@ document.addEventListener('click', event => {
 
 });
 
-// Select a specified element
+// code final pour la partie Apparition des descriptions détaillées – 2
 
 $(document).ready(function(){
     $('[data-toggle="tooltip"]').tooltip(); 
