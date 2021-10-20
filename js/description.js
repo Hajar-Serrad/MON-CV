@@ -1,17 +1,11 @@
-
-
 /*
-
 // qst 1 et 2
-
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.details').forEach(details=>{
         details.style.display="none";
     });   
     
 });
-
-
 document.addEventListener('click', event => {
     const element = event.target;
     if(element.className==='click') {
@@ -27,14 +21,11 @@ details.previousElementSibling.style.display = "block";
             
         }
     });  
-
 });
-
 */
 
 
 // qst 3 (code final pour la partie Apparition des descriptions détaillées – 1)
-
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.details').forEach(details=>{
         details.style.display="none";
@@ -45,20 +36,14 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('click', event => {
     const element = event.target;
     if(element.className==='click') {
-       
         element.style.display="none";
-        
-
         element.nextElementSibling.style.display="block";
-
         let offsetHeight =parseFloat(element.nextElementSibling.offsetHeight);
         element.nextElementSibling.style.height=0;
         element.nextElementSibling.style.opacity=0;
         element.nextElementSibling.style.lineHeight=0;
         let height=opacity=lineHeight=0;
-        
-       let v = setInterval(function() { 
-            
+        let v = setInterval(function() { 
            if(height<offsetHeight)
                height++;
             
@@ -84,21 +69,12 @@ document.addEventListener('click', event => {
             details.previousElementSibling.style.display = "block";
         }
     });  
- 
-     
-
 });
 
-// Select a specified element
 
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-  });
-
-  $( document ).on( "mousemove", function( event ) {
-    $( "#log" ).text( "pageX: " + event.pageX + ", pageY: " + event.pageY );
-    $( ".tooltip" ).css({
-      "left" : event.pageX,
-      "top" : event.pageY
+// code final pour la partie Apparition des descriptions détaillées – 2
+  $(function() {
+    $( document ).tooltip({
+      track: true
     });
   });
