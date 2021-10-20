@@ -116,10 +116,27 @@ h6 div {
 .ui-tooltip {
   padding: 8px;
   position: absolute;
-  z-index: 9999;
   max-width: 300px;
   -webkit-box-shadow: 0 0 9px #aaa;
   box-shadow: 0 0 9px #aaa;
   background-color: #008080;
   color: aliceblue;
+}
+
+.star {
+  color: #008080;
+}
+
+#myCanvas {
+  border: 2px solid black;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#title {
+  font-size: smaller;
+  font-weight: bold;
 }
